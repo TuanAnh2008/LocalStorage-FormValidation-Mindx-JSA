@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#e4d210, #d3860b);
+}
+
+.app {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 7px;
+    min-width: 300px;
+    min-height: 330px;
+    
+}
+
+.box-name{
+    font-size: 40px;
+    margin-block-end: 30px;
+    text-transform: uppercase;
+    color: rgba(11, 203, 43, 0.64);
+}
+
+.input-wrapper{
+    margin-block-end: 45px;
+    width: 100%;
+}
+.input-wrapper input {
+    width: inherit;
+    padding: 5px 10px;
+    outline: none;
+    border-color: transparent transparent #CCC transparent;
+    border-radius: 2px;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+
+.input-wrapper input:focus {
+    border-color: transparent transparent rgba(11, 203, 43, 0.64) transparent;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(11, 203, 43, 0.64) ;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+
+.account-exist {
+    color: green;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+}
+
+.link-sign-up {
+    color: black;
+    font-size: 16px;
+}
+
